@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Tangerine&display=swap');
+
+$primary: #3887bd;
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    padding: 1rem 0;
+// display: inline;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a.logo{
+        display: flex;
+        // font-weight: bold;
+        font-size: 36px;
+        .logo-image{
+            background: url(../assets/undraw_nature_m5ll.png);
+            height: 42px;
+            width: 49px;
+            background-size: 100% 100%;
+        }
+    }
+    nav{
+        float:right;
+        
+        ul{
+            margin: 0;
+            transform: translate(0 ,-23px);
+            list-style-type: none;
+            display: flex;
+
+            li a{
+                padding: 1em;
+           }
+        }
+    }
+}
+footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: lighten($color: #000000, $amount: 40%);
+
+    // height: 2rem;
+}
