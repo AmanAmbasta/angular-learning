@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SignInForm } from '../sign-in-form';
 import { EnrollmentService } from "../enrollment.service";
 @Component({
-  selector: 'app-signin',
+  selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.scss']
 })
